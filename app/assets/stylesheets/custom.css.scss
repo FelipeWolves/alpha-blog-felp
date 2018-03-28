@@ -1,2 +1,47 @@
+$navbar-default-bg: #0A406C;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('BingWallpaper-2018-03-25.jpg');
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-weight: bolder;
+}
+
+img{
+  max-width: 100%;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 2.1px solid #757575;
+  color: black;
+}
+
+small {
+  float: right;
+}
