@@ -2,7 +2,7 @@
 <div align="center">
   <%= will_paginate%>
 </div>
-<%= render 'article', obj: @user_articles %>
+<%= render partial: 'article', locals: { obj: @articles } %>
 <div align="center">
   <%= will_paginate%>
 </div>
