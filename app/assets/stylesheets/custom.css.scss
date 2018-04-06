@@ -1,7 +1,12 @@
-$navbar-default-bg: #0A406C;
+$navbar-default-bg: #4682B4;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+body {
+  background: lightgray;
+}
 
 #logo {
   float: left;
@@ -13,12 +18,18 @@ $navbar-default-bg: #0A406C;
 }
 
 #logo:hover {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 .center {
     text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a {
+  &:link, &:visited {
+    color: lightgray;
+  }
 }
 
 .jumbotron {
