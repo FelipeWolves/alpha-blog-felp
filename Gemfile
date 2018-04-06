@@ -58,6 +58,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'postgres'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
