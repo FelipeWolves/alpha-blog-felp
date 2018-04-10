@@ -1,0 +1,8 @@
+<h1 align="center"><%= "Category: " + @category.name %></h1>
+<div align="center">
+  <%= will_paginate @category_articles %>
+</div>
+<%= render partial: 'articles/article', locals: { obj: @category_articles } %>
+<div align="center">
+  <%= will_paginate @category_articles %>
+</div>
