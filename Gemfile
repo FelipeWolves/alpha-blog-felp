@@ -13,7 +13,7 @@ gem 'bcrypt', '~> 3.1.7'
 # Use bcrypt to allow to use has_secure_password
 gem 'will_paginate', '3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.12'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'jquery-rails'
