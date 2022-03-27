@@ -103,8 +103,14 @@ GEM
     postgresql (1.0.0)
       pg
     public_suffix (4.0.6)
+<<<<<<< HEAD
     puma (3.12.6)
     racc (1.6.0)
+=======
+    puma (4.3.11)
+      nio4r (~> 2.0)
+    racc (1.5.2)
+>>>>>>> origin/dependabot/bundler/puma-4.3.11
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -206,7 +212,7 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.2)
   pg
   postgresql
-  puma (~> 3.7)
+  puma (~> 4.3)
   rails (~> 5.1.5)
   rails-controller-testing
   sass-rails (~> 5.0)
